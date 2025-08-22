@@ -6,14 +6,14 @@ local map = vim.keymap.set
 local opts = { noremap = true, silent = true }
 
 -- Telescope in cwd --
-map(
-  "n",
-  "<Leader>ff",
-  ':lua require("telescope.builtin").find_files({find_command = { "fdfind", "--type", "f", "--no-ignore-vcs"}})<CR>',
-  opts
-)
-map("n", "<Leader>sg", ':lua require("telescope").extensions.live_grep_args.live_grep_args()<CR>""<Left>', opts)
-map("n", "<Leader>sw", ':lua require("telescope-live-grep-args.shortcuts").grep_word_under_cursor()<CR>', opts)
+-- map(
+--   "n",
+--   "<Leader>ff",
+--   ':lua require("telescope.builtin").find_files({find_command = { "fdfind", "--type", "f", "--no-ignore-vcs"}})<CR>',
+--   opts
+-- )
+-- map("n", "<Leader>sg", ':lua require("telescope").extensions.live_grep_args.live_grep_args()<CR>""<Left>', opts)
+-- map("n", "<Leader>sw", ':lua require("telescope-live-grep-args.shortcuts").grep_word_under_cursor()<CR>', opts)
 
 map("n", "<Leader>cf", ":normal! gg=G<CR>", opts)
 
