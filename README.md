@@ -1,7 +1,6 @@
-# 💤 LazyVim
+# Malins LazyVim config
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+använder inte denna config utan har den bara liggandes brevid min "kickstart-config" för att ibland snabbt öppna denna och kolla om LazyVim har nån bättre lösning på nåt jag klurar på (oftast inte såklart:)
 
-Not quite understood the difference between the undo tree plugin and the undo history plugin included in snacks.nvim, and also unclear why it wasn't there until I pasted in all the code from the README on snacks github page into snacks.lua
-Anyhow, now I have commented out all code from undotree.lua, meaning disabled the undo tree plugin.
+Om man är nyfiken på LazyVim (en neovim distribution) kan man läsa om det här [LazyVim](https://lazyvim.github.io/installation) 
+
